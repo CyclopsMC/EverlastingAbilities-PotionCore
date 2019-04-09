@@ -13,6 +13,8 @@ curseforge {
         mainArtifact(jar) {
             relations {
                 requiredDependency 'cyclops-core'
+                requiredDependency 'everlastingabilities'
+                requiredDependency 'potion-core'
             }
         }
 
