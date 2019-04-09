@@ -25,6 +25,17 @@ ability.abilities.everlastingabilities.diamond_skin.info=Increases your armor to
 ability.abilities.everlastingabilities.recoil.name=Recoil
 ability.abilities.everlastingabilities.recoil.info=Reflects a portion of damage back to the attacker
 
+ability.abilities.everlastingabilities.broken_armor.name=Broken Armor
+ability.abilities.everlastingabilities.broken_armor.info=Entities in the area have reduced armor levels
+ability.abilities.everlastingabilities.weight.name=Weight
+ability.abilities.everlastingabilities.weight.info=Entities in the area have negative jump boost
+ability.abilities.everlastingabilities.klutz.name=Klutz
+ability.abilities.everlastingabilities.klutz.info=Projectile damage from entities in the area is decreased
+ability.abilities.everlastingabilities.invert.name=Inversion
+ability.abilities.everlastingabilities.invert.info=Potion effects on entities in the area are inverted
+ability.abilities.everlastingabilities.vulnerable.name=Vulnerable
+ability.abilities.everlastingabilities.vulnerable.info=Damage for all entities in the area is multiplied
+
 # Config Screens
 config.eapotioncore=%s configuration
 
@@ -69,6 +80,22 @@ config.eapotioncore.diamond_skin.xpPerLevel=Xp required per diamond skin level
 config.eapotioncore.recoil.maxLevel=Max recoil level
 config.eapotioncore.recoil.rarity=Rarity of recoil
 config.eapotioncore.recoil.xpPerLevel=Xp required per recoil level
+
+config.eapotioncore.broken_armor.maxLevel=Max broken armor level
+config.eapotioncore.broken_armor.rarity=Rarity of broken armor
+config.eapotioncore.broken_armor.xpPerLevel=Xp required per broken armor level
+config.eapotioncore.weight.maxLevel=Max weight level
+config.eapotioncore.weight.rarity=Rarity of weight
+config.eapotioncore.weight.xpPerLevel=Xp required per weight level
+config.eapotioncore.klutz.maxLevel=Max klutz level
+config.eapotioncore.klutz.rarity=Rarity of klutz
+config.eapotioncore.klutz.xpPerLevel=Xp required per klutz level
+config.eapotioncore.invert.maxLevel=Max invert level
+config.eapotioncore.invert.rarity=Rarity of invert
+config.eapotioncore.invert.xpPerLevel=Xp required per invert level
+config.eapotioncore.vulnerable.maxLevel=Max vulnerable level
+config.eapotioncore.vulnerable.rarity=Rarity of vulnerable
+config.eapotioncore.vulnerable.xpPerLevel=Xp required per vulnerable level
 
 ## Core settings
 config.eapotioncore.ability_totem.lootChests=Ability totem in lootchests
