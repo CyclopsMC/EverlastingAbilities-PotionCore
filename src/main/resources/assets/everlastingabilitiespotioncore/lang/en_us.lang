@@ -1,0 +1,31 @@
+# General
+itemGroup.eapotioncore=Everlasting Abilities - Potion Core
+
+## Abilities
+ability.abilities.everlastingabilities.archery.name=Archery
+ability.abilities.everlastingabilities.archery.info=Inflict more projectile damage
+
+# Config Screens
+config.eapotioncore=%s configuration
+
+## Config categories
+config.eapotioncore.item=Item settings
+config.eapotioncore.general=General settings
+config.eapotioncore.core=Core settings
+config.eapotioncore.capability=Capability settings
+config.eapotioncore.ability=Ability settings
+
+## Ability settings
+config.eapotioncore.archery.maxLevel=Max archery level
+config.eapotioncore.archery.rarity=Rarity of archery
+config.eapotioncore.archery.xpPerLevel=Xp required per archery level
+
+## Core settings
+config.eapotioncore.ability_totem.lootChests=Ability totem in lootchests
+config.eapotioncore.general.analytics=Send anonymous analytics
+config.eapotioncore.general.anonymousAnalyticsID=Anonymous id
+config.eapotioncore.general.crashOnInvalidRecipe=Crash on invalid Recipe
+config.eapotioncore.general.crashOnModCompatCrash=Crash on Compatibility issue
+config.eapotioncore.general.debug=Develop mode
+config.eapotioncore.general.version=Version
+config.eapotioncore.general.versionChecker=Version check
