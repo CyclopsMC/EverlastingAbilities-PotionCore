@@ -17,6 +17,7 @@ import org.cyclops.cyclopscore.init.ModBaseVersionable;
 import org.cyclops.cyclopscore.init.RecipeHandler;
 import org.cyclops.cyclopscore.proxy.ICommonProxy;
 import org.cyclops.everlastingabilitiespotioncore.ability.config.AbilityArcheryConfig;
+import org.cyclops.everlastingabilitiespotioncore.ability.config.AbilityDrownConfig;
 
 /**
  * The main mod class of this mod.
@@ -133,6 +134,7 @@ public class EverlastingAbilitiesPotionCore extends ModBaseVersionable {
         super.onMainConfigsRegister(configHandler);
 
         configHandler.add(new AbilityArcheryConfig());
+        configHandler.add(new AbilityDrownConfig());
     }
 
     @Override

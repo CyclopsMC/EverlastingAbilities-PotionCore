@@ -2,8 +2,10 @@
 itemGroup.eapotioncore=Everlasting Abilities - Potion Core
 
 ## Abilities
-ability.abilities.everlastingabilities.archery.name=Archery
+ability.abilities.everlastingabilities.archery.name=Trueshot
 ability.abilities.everlastingabilities.archery.info=Inflict more projectile damage
+ability.abilities.everlastingabilities.drown.name=Drowning
+ability.abilities.everlastingabilities.drown.info=Breath underwater but suffocate in air
 
 # Config Screens
 config.eapotioncore=%s configuration
@@ -16,9 +18,12 @@ config.eapotioncore.capability=Capability settings
 config.eapotioncore.ability=Ability settings
 
 ## Ability settings
-config.eapotioncore.archery.maxLevel=Max archery level
-config.eapotioncore.archery.rarity=Rarity of archery
-config.eapotioncore.archery.xpPerLevel=Xp required per archery level
+config.eapotioncore.archery.maxLevel=Max trueshot level
+config.eapotioncore.archery.rarity=Rarity of trueshot
+config.eapotioncore.archery.xpPerLevel=Xp required per trueshot level
+config.eapotioncore.drown.maxLevel=Max drowining level
+config.eapotioncore.drown.rarity=Rarity of drowining
+config.eapotioncore.drown.xpPerLevel=Xp required per drowining level
 
 ## Core settings
 config.eapotioncore.ability_totem.lootChests=Ability totem in lootchests

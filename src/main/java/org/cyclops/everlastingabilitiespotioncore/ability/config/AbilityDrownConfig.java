@@ -1,6 +1,6 @@
 package org.cyclops.everlastingabilitiespotioncore.ability.config;
 
-import com.tmtravlr.potioncore.potion.PotionArchery;
+import com.tmtravlr.potioncore.potion.PotionDrown;
 import net.minecraft.item.EnumRarity;
 import org.cyclops.cyclopscore.config.ConfigurableProperty;
 import org.cyclops.cyclopscore.config.ConfigurableTypeCategory;
@@ -13,23 +13,23 @@ import org.cyclops.everlastingabilities.core.config.extendedconfig.AbilityConfig
  * @author rubensworks
  *
  */
-public class AbilityArcheryConfig extends AbilityConfig {
+public class AbilityDrownConfig extends AbilityConfig {
 
     /**
      * Rarity of this ability.
      */
     @ConfigurableProperty(category = ConfigurableTypeCategory.GENERAL, categoryRaw = "ability", comment = "Rarity of this ability.", requiresMcRestart = true)
-    public static int rarity = EnumRarity.UNCOMMON.ordinal();
+    public static int rarity = EnumRarity.COMMON.ordinal();
     /**
      * The maximum ability level.
      */
     @ConfigurableProperty(category = ConfigurableTypeCategory.GENERAL, categoryRaw = "ability", comment = "The maximum ability level.", requiresMcRestart = true)
-    public static int maxLevel = 5;
+    public static int maxLevel = 1;
     /**
      * The xp required per level.
      */
     @ConfigurableProperty(category = ConfigurableTypeCategory.GENERAL, categoryRaw = "ability", comment = "The xp required per level.", requiresMcRestart = true)
-    public static int xpPerLevel = 20;
+    public static int xpPerLevel = 5;
 
     /**
      * The unique instance.
@@ -39,16 +39,16 @@ public class AbilityArcheryConfig extends AbilityConfig {
     /**
      * Make a new instance.
      */
-    public AbilityArcheryConfig() {
+    public AbilityDrownConfig() {
         super(
                 true,
-                "archery",
-                "Increases projectile damage"
+                "drown",
+                "Makes you only breath underwater"
         );
     }
 
     @Override
     protected IConfigurable initSubInstance() {
-        return new AbilityTypePotionEffectSelf(getNamedId(), rarity, maxLevel, xpPerLevel, PotionArchery.INSTANCE);
+        return new AbilityTypePotionEffectSelf(getNamedId(), rarity, maxLevel, xpPerLevel, PotionDrown.INSTANCE);
     }
 }
