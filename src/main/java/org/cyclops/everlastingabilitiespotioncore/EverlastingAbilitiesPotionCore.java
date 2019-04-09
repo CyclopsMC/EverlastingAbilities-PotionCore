@@ -16,10 +16,7 @@ import org.cyclops.cyclopscore.config.ConfigHandler;
 import org.cyclops.cyclopscore.init.ModBaseVersionable;
 import org.cyclops.cyclopscore.init.RecipeHandler;
 import org.cyclops.cyclopscore.proxy.ICommonProxy;
-import org.cyclops.everlastingabilitiespotioncore.ability.config.AbilityAntidoteConfig;
-import org.cyclops.everlastingabilitiespotioncore.ability.config.AbilityArcheryConfig;
-import org.cyclops.everlastingabilitiespotioncore.ability.config.AbilityDrownConfig;
-import org.cyclops.everlastingabilitiespotioncore.ability.config.AbilityPurityConfig;
+import org.cyclops.everlastingabilitiespotioncore.ability.config.*;
 
 /**
  * The main mod class of this mod.
@@ -139,6 +136,13 @@ public class EverlastingAbilitiesPotionCore extends ModBaseVersionable {
         configHandler.add(new AbilityDrownConfig());
         configHandler.add(new AbilityAntidoteConfig());
         configHandler.add(new AbilityPurityConfig());
+        configHandler.add(new AbilitySlowFallConfig());
+        configHandler.add(new AbilitySolidCoreConfig());
+        configHandler.add(new AbilityClimbConfig());
+        configHandler.add(new AbilityReachConfig());
+        configHandler.add(new AbilityIronSkinConfig());
+        configHandler.add(new AbilityDiamondSkinConfig());
+        configHandler.add(new AbilityRecoilConfig());
     }
 
     @Override
