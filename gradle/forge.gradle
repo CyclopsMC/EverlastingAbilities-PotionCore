@@ -5,6 +5,10 @@ repositories {
         name "Cyclops Repo"
         url "https://oss.jfrog.org/artifactory/simple/libs-release/"
     }
+    maven {
+        name = "CurseForge"
+        url = "https://minecraft.curseforge.com/api/maven/"
+    }
 }
 dependencies {
     // Add something like 'cyclopscore_version_local=0.1.0-DEV' to your gradle.properties if you want to use a custom local CyclopsCore version.
@@ -13,6 +17,8 @@ dependencies {
     } else {
         compile "org.cyclops.cyclopscore:CyclopsCore:${config.minecraft_version}-${config.cyclopscore_version}:deobf"
     }
+
+    deobfCompile "potion-core:PotionCore:${config.potioncore_version}" // https://minecraft.curseforge.com/projects/potion-core/files
 
     // Project lombok
     compile "org.projectlombok:lombok:1.14.4"

@@ -37,9 +37,11 @@ public class Reference {
     public static final String MOD_CYCLOPSCORE = "cyclopscore";
     public static final String MOD_CYCLOPSCORE_VERSION = "@CYCLOPSCORE_VERSION@";
     public static final String MOD_CYCLOPSCORE_VERSION_MIN = "1.1.0";
+    public static final String MOD_POTIONCORE = "potioncore";
     
     // Dependencies
     public static final String MOD_DEPENDENCIES =
             "required-after:" + MOD_FORGE       + "@[" + MOD_FORGE_VERSION_MIN       + ",);" +
-            "required-after:" + MOD_CYCLOPSCORE + "@[" + MOD_CYCLOPSCORE_VERSION_MIN + ",);";
+            "required-after:" + MOD_CYCLOPSCORE + "@[" + MOD_CYCLOPSCORE_VERSION_MIN + ",);" +
+            "required-after:" + MOD_POTIONCORE + ";";
 }
