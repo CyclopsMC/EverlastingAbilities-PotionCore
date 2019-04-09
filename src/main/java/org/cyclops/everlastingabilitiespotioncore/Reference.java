@@ -10,7 +10,7 @@ package org.cyclops.everlastingabilitiespotioncore;
 public class Reference {
 	
     // Mod info
-    public static final String MOD_ID = "everlastingabilitiespotioncore";
+    public static final String MOD_ID = "eapotioncore";
     public static final String MOD_NAME = "EverlastingAbilities-PotionCore";
     public static final String MOD_VERSION = "@VERSION@";
     public static final String MOD_BUILD_NUMBER = "@BUILD_NUMBER@";
@@ -37,11 +37,14 @@ public class Reference {
     public static final String MOD_CYCLOPSCORE = "cyclopscore";
     public static final String MOD_CYCLOPSCORE_VERSION = "@CYCLOPSCORE_VERSION@";
     public static final String MOD_CYCLOPSCORE_VERSION_MIN = "1.1.0";
+    public static final String MOD_EVERLASTINGABILITIES = "everlastingabilities";
+    public static final String MOD_EVERLASTINGABILITIES_VERSION_MIN = "1.4.2";
     public static final String MOD_POTIONCORE = "potioncore";
     
     // Dependencies
     public static final String MOD_DEPENDENCIES =
             "required-after:" + MOD_FORGE       + "@[" + MOD_FORGE_VERSION_MIN       + ",);" +
             "required-after:" + MOD_CYCLOPSCORE + "@[" + MOD_CYCLOPSCORE_VERSION_MIN + ",);" +
+            "required-after:" + MOD_EVERLASTINGABILITIES + "@[" + MOD_EVERLASTINGABILITIES_VERSION_MIN + ",);" +
             "required-after:" + MOD_POTIONCORE + ";";
 }
