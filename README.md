@@ -33,3 +33,4 @@ This mod uses [Project Lombok](http://projectlombok.org/) -- an annotation proce
 
 ### License
 All code and images are licenced under the [MIT License](https://github.com/CyclopsMC/EverlastingAbilities-PotionCore/blob/master-1.12/LICENSE.txt)
+This mod was commissioned by BlueFlare.
