@@ -1,0 +1,18 @@
+[
+{
+  "modid": "everlastingabilitiespotioncore",
+  "name": "EverlastingAbilities-PotionCore",
+  "description": "Potion Core addon for Everlasting Abilities",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "logoFile": "assets/everlastingabilitiespotioncore/textures/logo.png",
+  "url": "https://github.com/CyclopsMC/EverlastingAbilities-PotionCore",
+  "updateUrl": "https://minecraft.curseforge.com/projects/319125",
+  "authorList": [ "rubensworks (aka kroeserr)" ],
+  "credits": "rubensworks (aka kroeserr)",
+  "parent": "",
+  "screenshots": [],
+  "dependencies": [],
+  "requiredMods": [ "forge", "cyclopscore" ]
+}
+]
