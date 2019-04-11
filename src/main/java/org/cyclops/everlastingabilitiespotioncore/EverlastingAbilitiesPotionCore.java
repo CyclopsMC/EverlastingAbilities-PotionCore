@@ -156,6 +156,16 @@ public class EverlastingAbilitiesPotionCore extends ModBaseVersionable {
         configHandler.add(new AbilityKlutzConfig());
         configHandler.add(new AbilityInvertConfig());
         configHandler.add(new AbilityVulnerableConfig());
+        configHandler.add(new AbilityMagicInhibitionConfig());
+        configHandler.add(new AbilityExplosionConfig());
+        configHandler.add(new AbilityCombustionConfig());
+        configHandler.add(new AbilityLightningConfig());
+        configHandler.add(new AbilityLaunchConfig());
+        configHandler.add(new AbilityCorrosionConfig());
+        configHandler.add(new AbilityDisorganizationConfig());
+        configHandler.add(new AbilityPerplexityConfig());
+        configHandler.add(new AbilityCurseConfig());
+        configHandler.add(new AbilityDispelConfig());
     }
 
     @Override
