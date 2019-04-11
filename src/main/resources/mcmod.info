@@ -1,6 +1,6 @@
 [
 {
-  "modid": "everlastingabilitiespotioncore",
+  "modid": "eapotioncore",
   "name": "EverlastingAbilities-PotionCore",
   "description": "Potion Core addon for Everlasting Abilities",
   "version": "${version}",
