@@ -143,6 +143,13 @@ public class EverlastingAbilitiesPotionCore extends ModBaseVersionable {
         configHandler.add(new AbilityIronSkinConfig());
         configHandler.add(new AbilityDiamondSkinConfig());
         configHandler.add(new AbilityRecoilConfig());
+        configHandler.add(new AbilityMagicFocusConfig());
+        configHandler.add(new AbilityMagicShieldingConfig());
+        configHandler.add(new AbilityRevivalConfig());
+        configHandler.add(new AbilityRepairConfig());
+        configHandler.add(new AbilityExtensionConfig());
+        configHandler.add(new AbilityBlessConfig());
+        configHandler.add(new AbilityCureConfig());
 
         configHandler.add(new AbilityBrokenArmorConfig());
         configHandler.add(new AbilityWeightConfig());
