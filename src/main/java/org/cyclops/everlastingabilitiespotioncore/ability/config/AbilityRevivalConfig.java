@@ -42,7 +42,7 @@ public class AbilityRevivalConfig extends AbilityConfig {
      */
     public AbilityRevivalConfig() {
         super(
-                true,
+                false,
                 "revival",
                 "Revive with 2 heart per level after death"
         );
