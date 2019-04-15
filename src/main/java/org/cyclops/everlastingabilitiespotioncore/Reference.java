@@ -38,7 +38,7 @@ public class Reference {
     public static final String MOD_CYCLOPSCORE_VERSION = "@CYCLOPSCORE_VERSION@";
     public static final String MOD_CYCLOPSCORE_VERSION_MIN = "1.1.0";
     public static final String MOD_EVERLASTINGABILITIES = "everlastingabilities";
-    public static final String MOD_EVERLASTINGABILITIES_VERSION_MIN = "1.4.2";
+    public static final String MOD_EVERLASTINGABILITIES_VERSION_MIN = "1.5.0";
     public static final String MOD_POTIONCORE = "potioncore";
     
     // Dependencies

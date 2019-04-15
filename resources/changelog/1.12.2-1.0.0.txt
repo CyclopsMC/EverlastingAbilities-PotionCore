@@ -1,0 +1,3 @@
+Initial release
+
+Requires CyclopsCore >= 1.1.0, Everlasting Abilities >= 1.5.0, Potion Core >= 1.6
