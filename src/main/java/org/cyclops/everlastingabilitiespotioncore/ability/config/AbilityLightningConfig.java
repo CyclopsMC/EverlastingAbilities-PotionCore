@@ -6,6 +6,7 @@ import net.minecraft.item.EnumRarity;
 import org.cyclops.cyclopscore.config.ConfigurableProperty;
 import org.cyclops.cyclopscore.config.ConfigurableTypeCategory;
 import org.cyclops.cyclopscore.config.configurable.IConfigurable;
+import org.cyclops.cyclopscore.helper.MinecraftHelpers;
 import org.cyclops.everlastingabilities.ability.AbilityTypePotionEffectRadius;
 import org.cyclops.everlastingabilities.core.config.extendedconfig.AbilityConfig;
 
@@ -50,6 +51,16 @@ public class AbilityLightningConfig extends AbilityConfig {
 
     @Override
     protected IConfigurable initSubInstance() {
-        return new AbilityTypePotionEffectRadius(getNamedId(), rarity, maxLevel, xpPerLevel, PotionLightning.INSTANCE, true);
+        return new AbilityTypePotionEffectRadius(getNamedId(), rarity, maxLevel, xpPerLevel, PotionLightning.INSTANCE, true) {
+            @Override
+            protected int getDuration(int tickModulus, int level) {
+                return MinecraftHelpers.SECOND_IN_TICKS / 10;
+            }
+
+            @Override
+            protected int getTickModulus(int level) {
+                return MinecraftHelpers.SECOND_IN_TICKS * getMaxLevelInfinitySafe() / level;
+            }
+        };
     }
 }
